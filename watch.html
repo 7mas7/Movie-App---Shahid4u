@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>شاهد فور يو - Shahid4u</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/watch.css">
+	<link rel="icon" href="assets/src/images/favicon.jpg">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome-4.7.0/css/font-awesome.css">
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<meta charset="utf-8">
+</head>
+
+
+<header style="background-image: url(assets/src/images/header-min.png);">
+	<div class="top">
+		<div class="logo"><img src="assets/src/images/logo.png"></div>
+	
+		<div class="left-top">
+				<div class="social-sites">
+			<a href="https://www.facebook.com/mu71mad" target="_blank"><i class="fa fa-telegram"></i></a>
+			<a href="https://www.twitter.com/sate3_" target="_blank"><i class="fa fa-twitter"></i></a>
+			<a href="https://www.facebook.com/mu71mad" target="_blank"><i class="fa fa-facebook"></i></a>
+		</div>
+		<div class="search-form">
+			<button class="search-button">بحث</button>
+			<input type="text" class="search-input" placeholder="أبحث في شاهد فور يو">
+			<i class="fa fa-search" class="search-icon"></i>
+		</div>
+		</div>
+	</div>
+	<div class="line"></div>
+	<div class="bottom" dir="rtl">
+		<div class="nav-list">
+			<a href="index.html"><button class="nav-button active">الرئيسية</button></a>
+			<button class="nav-button drop-down-button">أفلام<i class="fa fa-angle-down"></i></button>
+			<button class="nav-button drop-down-button">مسلسلات<i class="fa fa-angle-down"></i>	</button>
+			<button class="nav-button">برامج تلفيزيونية</button>
+			<button class="nav-button">عروض مصارعة</button>
+			<button class="nav-button">مسلسلات رمضان 2023</button>
+			<button class="nav-button netflix-button"><img src="assets/src/images/netflix.png"></button>
+		</div>
+	</div>
+</header>
+
+<body style="background-image: url(assets/src/images/bg2.png);">
+
+
+<div id="loading" style="width: 100%;height: 100vh;background-color: black;position: fixed;z-index: 9999;top: 0;left: 0;right: 0;bottom: 0;background-image: url(assets/src/images/loading.gif);background-repeat: no-repeat;background-size: cover;">
+	
+</div>
+
+<div class="player-container">
+	<div class="assets-container">
+		<a class="download-button" href="" download="mas">تحميل</a>
+	</div>
+
+	<div class="video-box">
+		<div class="video-info">
+			<div class="video-controls">
+				<input type="range" class="video-time-input" value="0" max="100" min="0" step="0.1">
+				<button class="play-button player-assets-button"><i class="fa fa-play"></i></button>
+				<div style="display: inline-flex;justify-content: center;align-items: center;">
+					<button class="volume-button player-assets-button"><i class="fa fa-volume-up"></i></button>
+					<input type="range" class="volume-input" value="1" max="1" min="0" step="0.1">
+				</div>
+				<button class="full-screen-button player-assets-button"><i class="fa fa-expand"></i></button>
+			</div>
+		</div>
+		<video src="" class="player-video"></video>
+		<div class="mobile-controls">
+				<input type="range" class="video-time-input" value="0" max="100" min="0" step="0.1">
+				<div style="width: 100%;background-color: transparent;display: flex;flex-direction: row-reverse;"><button class="play-button player-assets-button"><i class="fa fa-play"></i></button></div>
+				<div style="display: inline-flex;justify-content: center;align-items: center;">
+					<button class="volume-button player-assets-button"><i class="fa fa-volume-up"></i></button>
+					<input type="range" class="volume-input" value="1" max="1" min="0" step="0.1">
+					<button class="full-screen-button player-assets-button"><i class="fa fa-expand"></i></button>					
+				</div>
+				
+		</div>
+		<h1 class="video-title"></h1>
+	</div>
+</div>
+
+<script src="assets/js/player.js"></script>
+<script type="text/javascript">
+	var loading = document.querySelector("#loading");
+	setTimeout(function() {
+		loading.remove();
+	},5000);
+</script>
+</body>
+</html>

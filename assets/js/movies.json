@@ -1,0 +1,54 @@
+
+/*
+movie_ = { 
+	"title" : "", //اسم الفيلم
+	"src" : "", //رابط صورة الفيلم
+	"link" : "" //الفيلم
+}
+*/
+movie_1 = {
+	"title" : "فيلم Babylon 2022 مترجم اون لاين",
+	"src" : "assets/src/images/movie1.jpg",
+	"link" : "https://p2.e-amzn-cdn.net/kmxsuazmpbumwmesrl3uyopqmace4hgogzxlnml5zpp27hfgvvwjfwgaxm4a/v.mp4"
+},
+
+movie_2 = { 
+	"title" : "مشاهدة فيلم حظك اليوم HD",
+	"src" : "assets/src/images/movie2.jpg",
+	"link" : "https://snv205.myviid.com/sn3kos2kg46nuyc5wll6dfsa2gw74rkah5doaw4tpbbbeohqjgxe2gzk2dea/v.mp4"
+}
+
+movie3_ = { 
+	"title" : "مشاهدة فيلم Boyka Undisputed 4 2016 مترجم", //اسم الفيلم
+	"src" : "https://cimaaa4u.fun/wp-content/uploads/YpTSjfo.jpg", //رابط صورة الفيلم
+	"link" : "https://msv75.myviid.com/sn3koijega6nuyc5wkfodfqdyasyzrrt6ijwlx77lmldyg6kebmoxcelmrkq/v.mp4" 
+}
+
+
+movie_4 = { 
+	"title" : "مشاهده فيلم Spider Man Homecoming 2017 مترجم", //اسم الفيلم
+	"src" : "https://cimaaa4u.fun/wp-content/uploads/spiderman_homecoming_ver4-490x640.jpg", //رابط صورة الفيلم
+	"link" : "https://MST65.myviid.com/sn3kpjzega6nuyc5wkfodaqaqfmmq6m2423q47mjode2egb6fzeiwjtwm3eq/v.mp4" 
+}
+
+
+movie_5 = { 
+	"title" : "مشاهدة فيلم Avengers: Infinity War 2018 مترجم", //اسم الفيلم
+	"src" : "https://cimaaa4u.fun/wp-content/uploads/0000-2707.jpg", //رابط صورة الفيلم
+	"link" : "https://MST65.myviid.com/sn3ko46rgm6nuyc5wkqoddahqyf2rf3ehdwqaov2poh4kbspf5ti4ojsnqzq/v.mp4" 
+}
+
+
+movie_6 = { 
+	"title" : "مشاهدة فيلم البعض لا يذهب للمأذون مرتين HD", //اسم الفيلم
+	"src" : "https://cimaaa4u.fun/wp-content/uploads/050-1637.jpg", //رابط صورة الفيلم
+	"link" : "https://amz77.myviid.com/sn3kpqrjgu6nuyc5wkz6ddqy2bvf72zreu2qmbfcbumd7kynwawxiyiqozxa/v.mp4" 
+}
+
+movie_7 = { 
+	"title" : "فيلم Harry Potter and the Sorcerer's Stone 2001 مترجم", //اسم الفيلم
+	"src" : "https://cimaaa4u.fun/wp-content/uploads/050-169.jpg", //رابط صورة الفيلم
+	"link" : "https://snv210.myviid.com/sn3kpq4ogm6nuyc5wksodqy422uf46rdrctr5gubl4igrfs3uoun6ieak2ja/v.mp4" 
+}
+
+arrayOfMovies = [movie_1,movie_2,movie3_,movie_4,movie_5,movie_6,movie_7];
