@@ -486,3 +486,9 @@ li.play-icon {
 
 }
 
+@media only screen and (min-width: 480px){
+    .bottom {
+        display: none;
+    }
+}
+
